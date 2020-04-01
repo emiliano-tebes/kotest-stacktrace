@@ -21,6 +21,11 @@ class StringSpecExample : WordSpec() {
                     assert(true)
                 }
             }
+
+            "this one shows stacktrace ok" {
+                myClass.someRandomFunction("a value")
+                assert(true)
+            }
         }
 
     }
