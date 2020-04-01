@@ -4,7 +4,7 @@ import io.kotest.core.spec.style.WordSpec
 import io.kotest.data.forAll
 import io.kotest.data.row
 
-class StringSpecExample : WordSpec() {
+class SomeRandomClassTest : WordSpec() {
     private val myClass = SomeRandomClass()
 
     init {
